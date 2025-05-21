@@ -1,0 +1,34 @@
+{
+  "valid_cases": {
+    "primitive_int": "e915f694ae8f6861f8be3d44de2c90091aeb73ffc564dd03fef7e6859be43aa1",
+    "primitive_string": "5843a7f04aa47437de68f1542b0a12b3aa14bd4599f43546bf819182f413f447",
+    "primitive_float": "f90d214adb219a628422ceee070ad415983862e88ad479536f64f1cf3a113ef4",
+    "primitive_bool_true": "8252f6b37cd88a9afd6c793d8ed9a59850775b739b0cb629cf5f8cab92fd2de1",
+    "primitive_bool_false": "b5c02fe928cc341f80db9f9d6fa8aa44fe0473ec08cf67375f50b6da92513c5f",
+    "primitive_none": "8b1663da576e3578fd9e93e64081f24282af0bc3e08b3d3c8e288c26741faa4d",
+    "container_list": "b44616af1f96b9421d9496df41cb7ae4269aca08adf8bb21ea5c19961061c417",
+    "container_tuple": "527b4a72a3e3affb61667610251c3c942699a716fa3095612037e290975d8b9a",
+    "container_dict": "76a763172fb8e65aca01ab998906a609ef287563ccb4fb6688b5c912ced0d96b",
+    "container_set": "65fadeb99af27cee26dec605c936587312f28044d2174a4272b5b541f68e3976",
+    "container_frozenset": "3d2f22db0032de68b0ce8aa92f7470289799c573132b24d9d6bf663af21c5ac4",
+    "container_deque": "fd6efdf7495f63d14bdf99cf3cdb2c20836818b8c3690e5874013c7d88ef77f9",
+    "container_bytearray": "26963808c516219bbd255abf322159c8a700a1d5ef4c4ad003d964f2bdc0cc96",
+    "container_memoryview": "ERROR::cannot pickle 'memoryview' object",
+    "container_nested": "aaf3074c2f462f1a32255e0491e78f7f4e60792093b4539e36227dee5e8206e0",
+    "custom_simple": "216926d5998b11c02d7cd47fe89a4436c67f654b15d2dff5e1c0b04572c33bcd",
+    "custom_nested": "6fe07e1f6b8cd14cee36d88219075bc8234168b921bd9e15e222bb444adfc8fc",
+    "custom_cyclic": "77f56d0a3112ac36e4a2f900a322344d41e48ff15d00790ad6f52f9b7422c85a",
+    "custom_slots": "ERROR::a class that defines __slots__ without defining __getstate__ cannot be pickled",
+    "special_pathlib": "bc0efc9159d65bc65fe84931c14a1be9dea4281a75fb94cfc5b356d9ee5b118c",
+    "special_datetime": "190db49f339b84474edb8aa2171c3b53fffd076df12de49a5c6a8df118786fb9",
+    "special_enum": "26eee1d390e87f1e22a4c3dff5870f332a9b40324d069dc0a64625b30e7ef417",
+    "special_recursive_dict": "b3165ea6c2be18a978e5226970432e0fb46cafca8efd9d8f63fbccb3fb232890",
+    "special_nan_float": "2ff4d9bd70ae63ab256cfcb70c3e08256c732aca046efd531cbe53c974c53e58"
+  },
+  "invalid_cases": {},
+  "env_info": {
+    "python_version": "3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]",
+    "pickle_protocol": 1,
+    "platform": "linux"
+  }
+}
