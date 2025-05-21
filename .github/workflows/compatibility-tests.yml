@@ -1,0 +1,36 @@
+name: Pickle Compatibility Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.8", "3.10", "3.12"]
+        protocol: [1, 4]
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python }}
+
+    - name: Install dependencies
+      run: pip install pytest
+
+    - name: Run tests
+      env:
+        PICKLE_PROTOCOL: ${{ matrix.protocol }}
+      run: python -m pytest test_case.py -v
+
+    - name: Upload results
+      uses: actions/upload-artifact@v3
+      with:
+        name: results-${{ matrix.os }}-py${{ matrix.python }}-proto${{ matrix.protocol }}
+        path: result/

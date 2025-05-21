@@ -107,7 +107,7 @@ class TestValidEquivalence:
         containers = [
             ("list", [1, 2, 3]),
             ("tuple", (4, 5)),
-            ("dict", {'a': 1, 'b': 2}),
+            ("dict", {'a': 2, 'b': 1}),
             ("set", {1, 2, 3}),
             ("frozenset", frozenset([4, 5, 6])),
             ("deque", deque([1, 2, 3])),
