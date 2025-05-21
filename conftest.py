@@ -1,4 +1,4 @@
-# get_json.py 修改后
+# conftest.py 修改后
 import os
 import sys
 import json
@@ -10,8 +10,7 @@ def pytest_sessionfinish(session, exitstatus):
         # 获取 test_case.py 所在目录
         test_case_dir = Path(__file__).parent
 
-        # 创建 result 目录
-        result_dir = test_case_dir / "result"
+        result_dir = test_case_dir
         result_dir.mkdir(exist_ok=True)
 
         # 从测试模块导入 TEST_RESULTS
