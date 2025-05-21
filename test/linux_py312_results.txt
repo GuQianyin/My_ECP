@@ -1,0 +1,23 @@
+Object: 42, Protocol: 1, Hash: 0915f694ae8f6861f8be3d44de2c90091aeb73ffc564dd03fef7e6859be43aa1
+Object: 'hello', Protocol: 1, Hash: 5843a7f04aa47437de68f1542b0a12b3aa14bd4599f43546bf819182f413f447
+Object: 3.14, Protocol: 1, Hash: f90d214adb219a628422ceee070ad415983862e88ad479536f64f1cf3a113ef4
+Object: True, Protocol: 1, Hash: 8252f6b37cd88a9afd6c793d8ed9a59850775b739b0cb629cf5f8cab92fd2de1
+Object: False, Protocol: 1, Hash: b5c02fe928cc341f80db9f9d6fa8aa44fe0473ec08cf67375f50b6da92513c5f
+Object: None, Protocol: 1, Hash: 8b1663da576e3578fd9e93e64081f24282af0bc3e08b3d3c8e288c26741faa4d
+Object: [1, 2, 3], Protocol: 1, Hash: b44616af1f96b9421d9496df41cb7ae4269aca08adf8bb21ea5c19961061c417
+Object: (4, 5), Protocol: 1, Hash: 527b4a72a3e3affb61667610251c3c942699a716fa3095612037e290975d8b9a
+Object: {'b': 2, 'a': 1}, Protocol: 1, Hash: 9c90b93b9f9c18d6e2ae3f454ebe26c909b057b784e72b3fd421cd5ce24ddf74
+Object: {1, 2, 3}, Protocol: 1, Hash: 65fadeb99af27cee26dec605c936587312f28044d2174a4272b5b541f68e3976
+Object: frozenset({4, 5, 6}), Protocol: 1, Hash: 3d2f22db0032de68b0ce8aa92f7470289799c573132b24d9d6bf663af21c5ac4
+Object: deque([1, 2, 3]), Protocol: 1, Hash: fd6efdf7495f63d14bdf99cf3cdb2c20836818b8c3690e5874013c7d88ef77f9
+Object: bytearray(b'abc'), Protocol: 1, Hash: 26963808c516219bbd255abf322159c8a700a1d5ef4c4ad003d964f2bdc0cc96
+Object: [{'x': (1, 2)}, {5, 6}, bytearray(b'data')], Protocol: 1, Hash: aaf3074c2f462f1a32255e0491e78f7f4e60792093b4539e36227dee5e8206e0
+Object: CustomClass({'value': '5'}), Protocol: 1, Hash: 4bd9eb8dd2621679533652d08bb009179d8e4e446a41cfc21701b972baead204
+Object: [NestedClass({'value': '10'}), NestedClass({'value': '20'})], Protocol: 1, Hash: 7d14ea7f817dcb18e6ac1e62544535217339af70ddb4c7ee38474e799b557b80
+Object: CyclicClass({'other': "CyclicClass({'other': '...'})"}), Protocol: 1, Hash: 3593117df2ab13f30832b5d92ac5c9550a964f6599f5d387445960c8bb0c6eec
+Object: SlotsClass({'a': '1', 'b': '2'}), Protocol: 1, Hash: ERROR::a class that defines __slots__ without defining __getstate__ cannot be pickled
+Object: Path('\\test\\path'), Protocol: 1, Hash: 37e72339bb2f0c729da5bbc59a89c02512dab840e728e4f8be8d73581843f4a2
+Object: 2023-01-01T00:00:00, Protocol: 1, Hash: 190db49f339b84474edb8aa2171c3b53fffd076df12de49a5c6a8df118786fb9
+Object: Color.RED, Protocol: 1, Hash: d4122b4db8ba353dcaf01978e70880b78e3dfc5b182a070d6f2c5755a1bbeeba
+Object: {'self': ...}, Protocol: 1, Hash: b3165ea6c2be18a978e5226970432e0fb46cafca8efd9d8f63fbccb3fb232890
+Object: nan, Protocol: 1, Hash: 2ff4d9bd70ae63ab256cfcb70c3e08256c732aca046efd531cbe53c974c53e58
