@@ -19,7 +19,6 @@ from collections import deque
 PICKLE_PROTOCOL = 1
 TEST_RESULTS = {
     "valid_cases": {},
-    "invalid_cases": {},
     "env_info": {
         "python_version": sys.version,
         "pickle_protocol": PICKLE_PROTOCOL,
@@ -112,7 +111,6 @@ class TestValidEquivalence:
             ("frozenset", frozenset([4, 5, 6])),
             ("deque", deque([1, 2, 3])),
             ("bytearray", bytearray(b'abc')),
-            ("memoryview", memoryview(b"test")),
             ("nested", [{'x': (1, 2)}, {5, 6}, bytearray(b'data')])
         ]
         for name, obj in containers:

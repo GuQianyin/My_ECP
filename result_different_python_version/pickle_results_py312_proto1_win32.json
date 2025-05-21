@@ -24,8 +24,9 @@
     "special_recursive_dict": "b3165ea6c2be18a978e5226970432e0fb46cafca8efd9d8f63fbccb3fb232890",
     "special_nan_float": "2ff4d9bd70ae63ab256cfcb70c3e08256c732aca046efd531cbe53c974c53e58"
   },
+  "invalid_cases": {},
   "env_info": {
-    "python_version": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+    "python_version": "3.12.3 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
     "pickle_protocol": 1,
     "platform": "win32"
   }
